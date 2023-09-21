@@ -1,0 +1,23 @@
+.grid_container {
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 200px auto;
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+.header {
+    background-color: #ff3535;
+    grid-row: 1;
+}
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    display: inline-block;
+    margin-right: 1rem;
+    background-color: #ff0606;
+    font-size: 35px;
+}
