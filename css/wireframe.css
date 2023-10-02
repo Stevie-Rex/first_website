@@ -1,0 +1,44 @@
+.grid_container {
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 5px;
+    padding: 10px;
+}
+
+.top_story {
+    background-color: #ff3535;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.headlines {
+    background-color: #ff3535;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.other_stories {
+    background-color: #ff3535;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.news_and_buzz {
+    background-color: #ff3535;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.featured {
+    background-color: #ff3535;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.ad {
+    background-color: #ff3535;
+    grid-column: 3;
+    grid-row: 3;
+}
